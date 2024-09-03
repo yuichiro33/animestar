@@ -1,0 +1,63 @@
+body {
+    background: black;
+}
+
+boby {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Yatra One", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 165, 0);
+    padding: 10px;
+    font-size: 40px;
+    color: orange;
+}
+
+.chamada {
+    background: rgb(252, 125, 2);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+ margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x:auto;
+    gap:10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img {
+    opacity:0.5 ;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+ opacity: 1.0;
+ border: 5px solid orange;
+}
+
+.categoria h2{
+    color: orange;
+}
